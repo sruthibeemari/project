@@ -1,0 +1,452 @@
+.ocean{
+   color: rgb(6, 148, 237);
+   font-family:"Source Sans Pro", sans-serif;
+
+}
+.vibes{
+  font-family:"Source Sans Pro", sans-serif;
+  color: rgb(161, 164, 167);
+}
+
+#videocontainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow:hidden;
+}
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box{
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-left: 100px;
+   margin-right: 100px;
+   gap: 10px;
+   text-align: center;
+   
+
+}
+.one{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(187, 183, 183);
+
+}
+.two{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(187, 183, 183);
+  }
+  .three{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(187, 183, 183);
+  }
+  .four{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(187, 183, 183)
+  }
+  .five{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(187, 183, 183);
+   
+    
+  }
+  .bold{
+   position: relative;
+   top: 40px;
+   text-decoration: none;
+  }
+  .wave{
+    font-size: 60px;
+    position: relative;
+    top:-50px ;
+    text-decoration: none;
+  
+    
+    
+    
+    }
+  .intro{
+    display: flex;
+    gap: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+   box-shadow: 0px 3px 5px 3px rgb(161, 154, 154);
+    padding: 10px;
+  
+  }
+  .itwo{
+    
+    
+    font-size: 20px;
+  }
+  .ithree{
+    position: relative;
+    top:55px;
+    font-size: 20px;
+  }
+  .blue{
+    color:rgb(6, 148, 237) ;
+  }
+  .gallery{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 30px;
+    box-shadow: 0px 3px 5px 3px rgb(161, 154, 154);
+    padding: 10px;
+    
+  }
+  .photos{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+   
+  }
+  
+
+  .test{
+    display: flex;
+    gap: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    box-shadow: 0px 3px 5px 3px rgb(161, 154, 154);
+    padding: 10px;
+  
+  }
+  .about{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 30px;
+    box-shadow: 0px 3px 5px 3px rgb(161, 154, 154);
+    padding: 10px;
+
+  }
+  .contact{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 40px;
+    box-shadow: 0px 3px 5px 3px rgb(161, 154, 154);
+    padding: 10px;
+  }
+  .cone{
+    width: 600px;
+  }
+  .send{
+    background-color: rgb(6, 148, 237);
+    padding:10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    
+  }
+  .send:hover{
+    box-shadow: 2px 2px 3px black;
+  }
+  
+  .smallbox{
+    display: flex;
+    gap:10px;
+   
+  }
+  .smallbox:hover{
+    box-shadow: 2ps 2px 3px black;
+  }
+  .sm1{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 10px 0px 10px;
+    
+
+  }
+  .sm1:hover{
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(47, 110, 245);
+  }
+  .sm2{
+    background-color: rgb(47, 110, 245);
+    border: 1px solid black;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 2px 2px 3px black;
+  }
+  .sm1:hover{
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(47, 110, 245);
+  }
+  .sm3{
+    text-decoration: double black;
+    border: 1px solid black;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 2px 2px 3px black;
+  }
+  .sm3:hover{
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(47, 110, 245);
+  }
+  .sm4{
+     text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 2px 2px 3px black;
+  }
+  .sm4:hover{
+    box-shadow: 2px 2px 3px black;
+    background-color: rgb(47, 110, 245);}
+
+  .at{
+    text-decoration: none;
+  }
+ 
+  .return{
+    position: relative;
+    bottom: 50px;
+    left: 140px;
+    text-decoration: none;
+  }
+  .return:hover{
+    background-color:rgb(247, 216, 140) ;
+    padding: 10px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 50px;
+  }
+  .greturn{
+    position: relative;
+    bottom: 50px;
+    left: 140px;
+    text-decoration: none;
+  }
+  .greturn:hover{
+    background-color:rgb(247, 216, 140) ;
+    padding: 10px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 50px;
+  }
+  .h{
+    position: relative;
+    left: 220px;
+    top: 3px;
+    text-decoration: none;
+  }
+  .h:hover{
+    background-color:rgb(247, 216, 140) ;
+    box-shadow: 2px 2px 3px black;
+    padding: 10px;
+    border-radius:50px ;
+  }
+  .habout{
+    position: relative;
+    left: 360px;
+    top:4px;
+    text-decoration: none;
+  }
+  .habout:hover{
+    background-color:rgb(247, 216, 140) ;
+    box-shadow: 2px 2px 3px black;
+    padding: 10px;
+    border-radius:50px ;
+
+  }
+  .hcon{
+    position: relative;
+    left: 390px;
+    top:4px;
+    text-decoration: none;
+  }
+  .hcon:hover{
+    background-color:rgb(247, 216, 140);
+    box-shadow: 2px 2px 3px black;
+    padding: 10px;
+    border-radius: 50px;
+
+
+  }
+ 
+  .footer{
+   opacity:0.5 ;
+   text-align: center;
+ 
+
+  }
+  .arrow{
+    position: relative;
+    right: 30px;
+    top: 5px;
+  }
+  .sub{
+   width: 310px;
+   height: 30px;
+   color: rgb(123, 125, 126);
+  }
+
+@media screen and (max-width: 1500px) {
+    .box, .intro, .gallery, .test, .about, .contact{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .return{
+   position: relative;
+   right: 500px;
+
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .box, .intro, .gallery, .test, .about, .contact {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .photos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .wave {
+        font-size: 50px;
+    }
+
+    .send {
+        padding: 8px 16px;
+    }
+
+   
+    .return{
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+}
+.greturn{
+  position: relative;
+  bottom: 70px;
+  left: 140px;
+  font-size: 10px;
+
+}
+
+    .h {
+        left: 60px;
+    }
+
+    .habout {
+        left: 200px;
+    }
+
+    .hcon {
+        left: 100px;
+    }
+    .iframe{
+      width: 100%;
+    }
+    .imgt{
+      width: 100%;
+    }
+    .smallbox{
+      height: 30px;
+    }
+}
+
+@media screen  and (max-width: 768px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .intro, .gallery, .test, .about, .contact {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .wave {
+        font-size: 40px;
+    }
+
+    .send {
+        padding: 6px 12px;
+    }
+
+    .one, .two, .three, .four, .five {
+        width: 180px;
+        height: 180px;
+    }
+    .return{
+      margin-left: 50px;
+      margin-right: 50px;
+
+    }
+    .iframe{
+      width:100%;
+    }
+}
+/* Mobile*/
+@media screen and (min-width:390px) and (max-width: 425px) {
+    .photos {
+        grid-template-columns: 1fr;
+
+
+    }
+    .pintro{
+      font-size: 15px;
+    }
+
+    .intro, .gallery, .test, .about, .contact {
+     
+        justify-content: center;
+    }
+
+
+    .wave {
+        font-size: 30px;
+    }
+
+    .send {
+        padding: 4px 8px;
+        text-align:right;
+        position: relative;
+        bottom: 100px;
+    }
+
+   
+    .return{
+     font-size: 20px;
+
+    }
+
+    .h {
+        left: 100px;
+    }
+
+    .habout {
+        left: 180px;
+    }
+
+    .hcon {
+        left: 200px;
+    }
+    .iframe{
+      width:100%;
+    }
+}
+@media screen and (max-width: 768px) {
+  #videocontainer {
+      padding-bottom: 75%; 
+  }
+} 
+
